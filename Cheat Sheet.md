@@ -102,6 +102,7 @@ histSize : this represents our BIN count. For full scale, we pass [256].
 ranges : this is our RANGE. Normally, it is [0,256].
 
 cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])
+
 gray_hist = cv.calcHist([gray], [0], None, [256], [0,256])
 
 #### Thresholding
