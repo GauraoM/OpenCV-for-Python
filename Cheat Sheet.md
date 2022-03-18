@@ -1,3 +1,9 @@
+#### Reading Image
+image = cv2.imread("image")
+
+#### Capturing Video
+cap = cv2.VideoCapture(0)
+
 #### Blank image
 blank = np.zeros((500,500,3), dtype="uint8") # Blank image
 
